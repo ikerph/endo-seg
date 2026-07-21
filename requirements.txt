@@ -1,0 +1,11 @@
+# EndoTector dependencies
+
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch>=2.5.1
+torchvision>=0.20.1
+
+ultralytics==8.4.91       # YOLO26-seg which provides detection and segmentation in one model
+opencv-python-headless==5.0.0.93
+gradio==6.20.0
+imageio==2.37.4           # write the segmented video output
+imageio-ffmpeg==0.6.0     #  H.264 mp4 the browser can play

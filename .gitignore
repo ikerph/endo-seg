@@ -1,0 +1,15 @@
+# Environments
+.venv/
+__pycache__/
+
+# Datasets, training runs, and weights (best.pt is committed; the rest stays local)
+data/
+runs/
+*.pt
+!models/best.pt
+
+# Raw source media — the rendered demo GIF is committed, the large source clips are not
+*.avi
+*.mp4
+*.webm
+*.mov
